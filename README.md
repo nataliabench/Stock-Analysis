@@ -9,9 +9,16 @@ After running our yearly analysis code for all stocks in 2017 and 2018, we recie
 ![alt text](https://github.com/nataliabench/Stock-Analysis/blob/6f3f8856e85ebb2017d9c8f91858ed20cbc5a0f1/Resources/2017:2018%20All%20Stock%20Analysis.png)
 Our original script contained a nested for loop that was able to perform and repeat the lines of code until told to stop when stated in code.  We decided to refractor our original code, in hopes of improving the time elapsed for code run time when creating pop-up message boxes.  We wanted to improve our code so that we would recieve the data on the run time quicker.  To do so, we refracted our code to instead be scripted to loop through all the data at once to perform the same function as originally.  
 Once we ran our refracted script, we saved our pop-up message boxes to remember the run time for year 2017 and 2018.  Then, I ran our original script again, and saved the run times as well for both years.  Below, you can see the run times with our refracted code for years 2017 and 2018.
+
 ![alt text](https://github.com/nataliabench/Stock-Analysis/blob/c9daefed62704fceb11da3e89899f129e1f07053/Resources/VBA_Challenge_2017.png)
 ![alt text](https://github.com/nataliabench/Stock-Analysis/blob/c9daefed62704fceb11da3e89899f129e1f07053/Resources/VBA_Challenge_2018.png)
-The difference between the run times for the original script vs. refracted script were minimal but, still showed a slower run time with our refracted script for both years.  
+
+The difference between the run times for the original script vs. refracted script were minimal but, still we saw a slower run time with our refracted code for both years. Below, you can find the original code run times.
+
+![alt text](https://github.com/nataliabench/Stock-Analysis/blob/590508a400b67972e389e55002c23652f5abbc7b/Resources/Original_Script_RunTime2017.png)
+![alt text](https://github.com/nataliabench/Stock-Analysis/blob/590508a400b67972e389e55002c23652f5abbc7b/Resources/Original_Script_RunTime2018.png)
+
+
 # Summary
 Disadvantages and advantages of refractoring code
 Disadvantages and advantages on the original code vs. refractored code
