@@ -13,12 +13,11 @@ Once we ran our refracted script, we saved our pop-up message boxes to remember 
 ![alt text](https://github.com/nataliabench/Stock-Analysis/blob/c9daefed62704fceb11da3e89899f129e1f07053/Resources/VBA_Challenge_2017.png)
 ![alt text](https://github.com/nataliabench/Stock-Analysis/blob/c9daefed62704fceb11da3e89899f129e1f07053/Resources/VBA_Challenge_2018.png)
 
-The difference between the run times for the original script vs. refracted script were minimal but, still we saw a slower run time with our refracted code for both years. Below, you can find the original code run times.
+The difference between the run times for the original script vs. refracted script were minimal but, still we saw a faster run time with our refracted code for both years. Below, you can find the run times for the original code.
 
 ![alt text](https://github.com/nataliabench/Stock-Analysis/blob/590508a400b67972e389e55002c23652f5abbc7b/Resources/Original_Script_RunTime2017.png)
 ![alt text](https://github.com/nataliabench/Stock-Analysis/blob/590508a400b67972e389e55002c23652f5abbc7b/Resources/Original_Script_RunTime2018.png)
 
-
 # Summary
-Disadvantages and advantages of refractoring code
-Disadvantages and advantages on the original code vs. refractored code
+As we saw above, one clear advantage of refractoring code is reducing run times.  Also, taking the time to write out the original code, step by step, requires more detailed-focused techniques, so once we decide to rewrite a code that is already functioning, we run into many bugs before it runs effectively.  Because we copied the original code, finding small mistakes throughout the code takes time by rereading and running the script to debug the code.  For example, I realized my final refractored code was not running because I had one mispelling from the original code that was not allowing the loops into the refracted code to run smoothly.  It kept breaking my loop due to the mismatched values.
+As we described above, the cons tend to lie in time consuming aspects when trying to debug an original code that already performs the function.  But, although it may take more time, refractoring your code leads to a more efficient, faster, and organized analysis of data.
