@@ -13,6 +13,7 @@ After running our yearly analysis code for all stocks in 2017 and 2018, we recie
 
 ### Original vs. Refractored VBA Code 
 Our original script contained a nested for loop that was able to perform and repeat the lines of code until told to stop when stated in code.  We decided to refractor our original code, in hopes of improving the time elapsed for code run time when creating pop-up message boxes.  We wanted to improve our code so that we would recieve the data on the run time quicker.  To do so, we refracted our code to instead be scripted to loop through all the data at once to perform the same function as originally.  
+
 Once we ran our refracted script, we saved our pop-up message boxes to remember the run time for year 2017 and 2018.  Then, I ran our original script again, and saved the run times as well for both years.  Below, you can see the run times with our refracted code for years 2017 and 2018.
 
 ![alt text](https://github.com/nataliabench/Stock-Analysis/blob/c9daefed62704fceb11da3e89899f129e1f07053/Resources/VBA_Challenge_2017.png)
@@ -25,4 +26,5 @@ The difference between the run times for the original script vs. refracted scrip
 
 # Summary
 As we saw above, one clear advantage of refractoring code is reducing run times.  Also, taking the time to write out the original code, step by step, requires more detailed-focused techniques, so once we decide to rewrite a code that is already functioning, we run into many bugs before it runs effectively.  Because we copied the original code, finding small mistakes throughout the code takes time by rereading and rerunning the script until you debug the code.  For example, I realized my final refractored code was not running because I had one mispelling from the original code that was not allowing the loops in the refracted code to loop smoothly.  It kept breaking my loop due to the mismatched values.
+
 As we described above, the cons tend to lie in more time consuming aspects when trying to debug an original code that already performs the function.  But, even though it may take more time, refractoring your code leads to a more efficient, faster, and organized analysis of data.
