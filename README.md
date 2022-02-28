@@ -14,7 +14,7 @@ After running our yearly analysis code for all stocks in 2017 and 2018, we recie
 ### Original vs. Refractored VBA Code 
 Our original script contained a nested for loop that was able to perform and repeat the lines of code until told to stop when stated in code.  We decided to refractor our original code, in hopes of improving the time elapsed for code run time when creating pop-up message boxes.  We wanted to improve our code so that we would recieve the data on the run time quicker.  To do so, we refracted our code to instead be scripted to loop through all the data at once to perform the same function as originally.  Below, you will find a screen shot of one section of the refractored script.  This section was what differed and needed to be added to the original script in order to run a faster code.  This section signifies the computer to loop through all stock data using by using and storing the values in each row that we created in the array, such as tickers, tickerVolumes, tickerStartingPrices and tickerEndingPrices.
 
-![alt text](
+![alt text](https://github.com/nataliabench/Stock-Analysis/blob/e7b2f8e91b17f42e8d79c721e5d8fb46ffa59b51/Resources/Refractored%20Code.png)
 
 Once we ran our refracted script, we saved our pop-up message boxes to remember the run time for year 2017 and 2018.  Then, I ran our original script again, and saved the run times as well for both years.  Below, you can see the run times with our refracted code for years 2017 and 2018.
 
